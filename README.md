@@ -1,5 +1,7 @@
 # AngularPortfolio
 
+Site: https://meu-portfolioangular.netlify.app
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 
 ## Development server
