@@ -43,7 +43,7 @@ export class ProjectsComponent {
       src: 'assets/img/projects/card-movies.png',
       alt: 'Projeto',
       title: 'Catálogo de Filmes Interativo',
-      with: '200px',
+      with: '150px',
       height: '150px',
       description:
         '<p>Este é um projeto web simples de um catálogo de filmes, onde cada filme é exibido como um card interativo. Os cards se expandem para revelar mais detalhes sobre o filme quando clicados. Ferramentas utilizadas HTML, CSS e JavaScript</p>',
@@ -59,7 +59,7 @@ export class ProjectsComponent {
       src: 'assets/img/projects/e-players.png',
       alt: 'Projeto',
       title: 'E-Players',
-      with: '200px',
+      with: '150px',
       height: '100px',
       description:
         '<p>Este foi meu primeiro projeto desenvolvido no curso técnico de Desenvolvimento de Sistemas. Ferramentas utilizadas HTML e CSS</p>',
@@ -70,6 +70,24 @@ export class ProjectsComponent {
         },
       ],
     },
+
+
+    {
+      src: 'assets/img/projects/lista_de_tarefas.png',
+      alt: 'Projeto',
+      title: 'E-Players',
+      with: '150px',
+      height: '100px',
+      description:
+        '<p>Esse é meu segundo projeto feito em Angular</p>',
+      links: [
+        {
+          name: 'Conheça',
+          href: 'https://listadetarefasangular.netlify.app',
+        },
+      ],
+    },
+
   ])
 
   public openDialog(data: IProjects) {
